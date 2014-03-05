@@ -3,67 +3,68 @@
 	<head>
 		<title>Homework 1 of 97703051 資科四 蘇智煒</title>
 		<meta charset="UTF-8" http-equiv="content-type" content="web_programming">
+		<link rel="stylesheet" type="text/css" href="index.css">
 	</head>
 	<body>
 		<header>
 			<p>
-				<a>
+				<a href="http://www.taipeitravel.net/tw/intro">
 					<img src="HW1/001.jpg" alt="臺北旅遊網">
 				</a>
-				<img src="HW1/002.jpg" alt="臺北天氣">
-				&nbsp;&nbsp;
-				<figure>
-					<img src="HW1/26.gif" alt="陰短暫雨">
-					<figcaption>60.8°F&nbsp;&nbsp;16.0°C</figcaption>
-				</figure>
-				<div>
-					<nav>
-						<a>登入</a>
-						&nbsp;|&nbsp;
-						<a>加入會員</a>
-						&nbsp;|&nbsp;
-						<a>聯絡我們</a>
-						&nbsp;|&nbsp;
-						<a>網站導覽</a>
-						&nbsp;|&nbsp;
-						<a>常見問題</a>
-						&nbsp;|&nbsp;
-						<a>首頁</a>
-						&nbsp;|&nbsp;
-						<a>
-							<img src="HW1/054.jpg" alt="English">
-						</a>
-						&nbsp;
-						<a>
-							<img src="HW1/052.jpg" alt="日本語">
-						</a>
-						&nbsp;
-						<a>
-							<img src="HW1/051.jpg" alt="한국의">
-						</a>
-						&nbsp;
-						<a>
-							<img src="HW1/053.jpg" alt="española">
-						</a>
-					</nav>
-					<br>
-					<nav>
-						<a>
-							<img src="HW1/004.jpg" alt="Facebook粉絲團">
-						</a>
-						<a>
-							<img src="HW1/005.jpg" alt="微博粉絲團">
-						</a>
-						&nbsp;&nbsp;
-						全文檢索:
-						<input type="text" value="--請輸入關鍵字--" name="keyword">
-						<input type="submit" value="查詢"> 
-					</nav>
+				<div class="weather">
+					<img src="HW1/002.jpg" alt="臺北天氣">
+					&nbsp;&nbsp;
+					<figure>
+						<img src="HW1/26.gif" alt="陰短暫雨">
+						<figcaption>60.8°F&nbsp;&nbsp;16.0°C</figcaption>
+					</figure>
 				</div>
+				<nav class="nav1">
+					<a>登入</a>
+					&nbsp;|&nbsp;
+					<a>加入會員</a>
+					&nbsp;|&nbsp;
+					<a>聯絡我們</a>
+					&nbsp;|&nbsp;
+					<a>網站導覽</a>
+					&nbsp;|&nbsp;
+					<a>常見問題</a>
+					&nbsp;|&nbsp;
+					<a>首頁</a>
+					&nbsp;|&nbsp;
+					<a href="http://www.taipeitravel.net/en/">
+						<img src="HW1/054.jpg" alt="English">
+					</a>
+					&nbsp;
+					<a href="http://www.taipeitravel.net/jp/">
+						<img src="HW1/052.jpg" alt="日本語">
+					</a>
+					&nbsp;
+					<a href="http://www.taipeitravel.net/kr/">
+						<img src="HW1/051.jpg" alt="한국의">
+					</a>
+					&nbsp;
+					<a href="http://www.taipeitravel.net/es/">
+						<img src="HW1/053.jpg" alt="española">
+					</a>
+				</nav>
 				<br>
-				<nav>
-					<a>玩樂新鮮報</a>
-						<nav>
+				<nav class="nav2">
+					<a href="http://www.facebook.com/taipeitravel">
+						<img src="HW1/004.jpg" alt="Facebook粉絲團">
+					</a>
+					<a href="http://weibo.com/taipeitravelnet">
+						<img src="HW1/005.jpg" alt="微博粉絲團">
+					</a>
+					&nbsp;&nbsp;
+					全文檢索:
+					<input type="text" value="--請輸入關鍵字--" name="keyword">
+					<input type="submit" value="查詢"> 
+				</nav>
+				<br>
+				<nav class="nav3">
+					<a href="http://www.taipeitravel.net/tw/intro">玩樂新鮮報</a>
+						<nav class="nav_content">
 							<a>旅遊報馬仔</a>
 							<a>好康快報</a>
 							<a>城市活動</a>
@@ -74,8 +75,8 @@
 							<a>臺北畫刊簡介</a>
 						</nav>
 					<br>
-					<a>臺北全攻略</a>
-						<nav>
+					<a href="http://www.taipeitravel.net/tw/tips">臺北全攻略</a>
+						<nav class="nav_content">
 							<a>交通資訊</a>
 							<a>旅館查詢</a>
 							<a>商家資訊</a>
@@ -85,8 +86,8 @@
 							<a>語言教學</a>
 						</nav>
 					<br>
-					<a>主題遊臺北</a>
-						<nav>
+					<a href="http://www.taipeitravel.net/tw/trip">主題遊臺北</a>
+						<nav class="nav_content">
 							<a>精選主題</a>
 							<a>經典遊程</a>
 							<a>行程總覽</a>
@@ -96,37 +97,37 @@
 							<a>會展資源查詢</a>
 						</nav>
 					<br>
-					<a>景點趴趴走</a>
+					<a href="http://www.taipeitravel.net/tw/scene">景點趴趴走</a>
 					<br>
 					<br>
-					<a>美饌食食樂</a>
-						<nav>
+					<a href="http://www.taipeitravel.net/tw/food">美饌食食樂</a>
+						<nav class="nav_content">
 							<a>臺北美食</a>
 							<a>美食地圖</a>
 							<a>北投酒家菜</a>
 							<a>友善餐廳</a>
 						</nav>
 					<br>
-					<a>購物購購Go</a>
+					<a href="http://www.taipeitravel.net/tw/shopping">購物購購Go</a>
 					<br>
 					<br>
-					<a>達人帶你玩</a>
-						<nav>
+					<a href="http://www.taipeitravel.net/tw/private">達人帶你玩</a>
+						<nav class="nav_content">
 							<a>達人帶你玩</a>
 							<a>微笑臺北</a>
 						</nav>
 					<br>
 					
-					<a>旅遊筆記本</a>
-						<nav>
+					<a href="http://www.taipeitravel.net/tw/guide">旅遊筆記本</a>
+						<nav class="nav_content">
 							<a>相簿集</a>
 							<a>影音集</a>
 							<a>電子賀卡</a>
 							<a>小遊戲</a>
 						</nav>
 					<br>
-					<a>Free 社</a>
-						<nav>
+					<a href="http://www.taipeitravel.net/tw/free">Free 社</a>
+						<nav class="nav_content">
 							<a>社員守則</a>
 							<a>福利品</a>
 							<a>幸運大轉盤</a>
@@ -137,16 +138,18 @@
 					<br>
 				</nav>
 				<br>
-				<img src="HW1/main.jpg" alt="主要照片">
+				<img class="main_pic" src="HW1/main.jpg" alt="主要照片">
 				<br>
-				<img src="HW1/icon01.gif" alt="RSS 訂閱">
-				<img src="HW1/icon03.gif" alt="分享至Facebook">
-				<img src="HW1/icon04.gif" alt="分享至Twitter">
-				<img src="HW1/icon05.gif" alt="分享至Plurk">
-				<img src="HW1/icon07.gif" alt="分享至FunP">
+				<div class="sns_share"> 
+					<img src="HW1/icon01.gif" alt="RSS 訂閱">
+					<img src="HW1/icon03.gif" alt="分享至Facebook">
+					<img src="HW1/icon04.gif" alt="分享至Twitter">
+					<img src="HW1/icon05.gif" alt="分享至Plurk">
+					<img src="HW1/icon07.gif" alt="分享至FunP">
+				</div>
 			</p>
 		</header>
-		<aside>
+		<aside class="service">
 			<p>
 				<a>
 					<img src="HW1/flot_027.gif" alt="連結到旅客諮詢">
@@ -231,7 +234,7 @@
 		</aside>
 		<main>
 			<article>
-				<p>
+				<p class="scene_catagory">
 					●&nbsp;&nbsp;景點趴趴走
 					<ul id="tmenu_menu">
 						<li>
@@ -285,7 +288,7 @@
 					</ul>
 				</p>
 			</article>
-			<section>
+			<section class="hot_scene">
 				<p>
 					熱門景點&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<a>MORE</a>
@@ -323,7 +326,7 @@
 					<br>
 				</p>
 			</section>
-			<section>
+			<section class="recommand_scene">
 				<p>
 					推薦景點&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<a>MORE</a>
@@ -396,51 +399,31 @@
 					<img src="HW1/t101.gif" alt="101亮點">
 					<img src="HW1/720.gif" alt="720度環景">
 					新北投溫泉區
-					<table>
-						<tbody>
-							<tr>
-								<td colspan="2">區&nbsp;&nbsp;&nbsp;&nbsp;域: </td>
-								<td colspan="2">臺北市 北投區</td>
-							</tr>
-							<tr>
-								<td colspan="2">分&nbsp;&nbsp;&nbsp;&nbsp;類: </td>
-								<td colspan="2">養生溫泉</td>
-							</tr>
-							<tr>
-								<td colspan="1">推薦指數: </td>
-								<td colspan="1">751</td>
-								<td colspan="1">人氣指數: </td>
-								<td colspan="1">218695</td>
-							</tr>
-						</tbody>
-					</table>
+					<br>
+					區&nbsp;&nbsp;&nbsp;&nbsp;域: 臺北市 北投區
+					<br>
+					分&nbsp;&nbsp;&nbsp;&nbsp;類: 養生溫泉
+					<br>
+					推薦指數: 751
+					<br>
+					人氣指數: 218695
+					<br>
 				</p>
 				<p>
 					<img src="HW1/s2.jpg" alt="大稻埕碼頭">
 					<br>
 					大稻埕碼頭
-					<table>
-						<tbody>
-							<tr>
-								<td colspan="2">區&nbsp;&nbsp;&nbsp;&nbsp;域: </td>
-								<td colspan="2">臺北市 大同區</td>
-							</tr>
-							<tr>
-								<td colspan="2">分&nbsp;&nbsp;&nbsp;&nbsp;類: </td>
-								<td colspan="2">藍色公路</td>
-							</tr>
-							<tr>
-								<td colspan="2">適合月份: </td>
-								<td colspan="2">四季皆宜</td>
-							</tr>
-							<tr>
-								<td colspan="1">推薦指數: </td>
-								<td colspan="1">329</td>
-								<td colspan="1">人氣指數: </td>
-								<td colspan="1">171532</td>
-							</tr>
-						</tbody>
-					</table>
+					<br>
+					區&nbsp;&nbsp;&nbsp;&nbsp;域: 臺北市 大同區
+					<br>
+					分&nbsp;&nbsp;&nbsp;&nbsp;類: 藍色公路
+					<br>
+					適合月份: 四季皆宜
+					<br>
+					推薦指數: 329
+					<br>
+					人氣指數: 171532
+					<br>
 				</p>
 				<p>
 					<img src="HW1/s3.jpg" alt="國立故宮博物館">
@@ -449,28 +432,17 @@
 					<img src="HW1/720.gif" alt="720度環景">
 					<img src="HW1/holder.gif" alt="無障礙景點">
 					國立故宮博物館
-					<table>
-						<tbody>
-							<tr>
-								<td colspan="2">區&nbsp;&nbsp;&nbsp;&nbsp;域: </td>
-								<td colspan="2">臺北市 士林區</td>
-							</tr>
-							<tr>
-								<td colspan="2">分&nbsp;&nbsp;&nbsp;&nbsp;類: </td>
-								<td colspan="2">博物館</td>
-							</tr>
-							<tr>
-								<td colspan="2">適合月份: </td>
-								<td colspan="2">四季皆宜</td>
-							</tr>
-							<tr>
-								<td colspan="1">推薦指數: </td>
-								<td colspan="1">477</td>
-								<td colspan="1">人氣指數: </td>
-								<td colspan="1">133256</td>
-							</tr>
-						</tbody>
-					</table>
+					<br>
+					區&nbsp;&nbsp;&nbsp;&nbsp;域: 臺北市 士林區
+					<br>
+					分&nbsp;&nbsp;&nbsp;&nbsp;類: 博物館
+					<br>
+					適合月份: 四季皆宜
+					<br>
+					推薦指數: 477
+					<br>
+					人氣指數: 133256
+					<br>
 				</p>
 				<p>
 					<img src="HW1/s4.jpg" alt="士林官邸">
@@ -479,47 +451,29 @@
 					<img src="HW1/720.gif" alt="720度環景">
 					<img src="HW1/holder.gif" alt="無障礙景點">
 					士林官邸
-					<table>
-						<tbody>
-							<tr>
-								<td colspan="2">區&nbsp;&nbsp;&nbsp;&nbsp;域: </td>
-								<td colspan="2">臺北市 士林區</td>
-							</tr>
-							<tr>
-								<td colspan="2">分&nbsp;&nbsp;&nbsp;&nbsp;類: </td>
-								<td colspan="2">歷史建築</td>
-							</tr>
-							<tr>
-								<td colspan="1">推薦指數: </td>
-								<td colspan="1">244</td>
-								<td colspan="1">人氣指數: </td>
-								<td colspan="1">130964</td>
-							</tr>
-						</tbody>
-					</table>
+					<br>
+					區&nbsp;&nbsp;&nbsp;&nbsp;域: 臺北市 士林區
+					<br>
+					分&nbsp;&nbsp;&nbsp;&nbsp;類: 歷史建築
+					<br>
+					推薦指數: 244
+					<br>
+					人氣指數: 130964
+					<br>
 				</p>
 				<p>
 					<img src="HW1/s5.jpg" alt="陽明山溫泉區">
 					<br>
 					陽明山溫泉區
-					<table>
-						<tbody>
-							<tr>
-								<td colspan="2">區&nbsp;&nbsp;&nbsp;&nbsp;域: </td>
-								<td colspan="2">臺北市 北投區</td>
-							</tr>
-							<tr>
-								<td colspan="2">分&nbsp;&nbsp;&nbsp;&nbsp;類: </td>
-								<td colspan="2">養生溫泉</td>
-							</tr>
-							<tr>
-								<td colspan="1">推薦指數: </td>
-								<td colspan="1">430</td>
-								<td colspan="1">人氣指數: </td>
-								<td colspan="1">127508</td>
-							</tr>
-						</tbody>
-					</table>
+					<br>
+					區&nbsp;&nbsp;&nbsp;&nbsp;域: 臺北市 北投區
+					<br>
+					分&nbsp;&nbsp;&nbsp;&nbsp;類: 養生溫泉
+					<br>
+					推薦指數: 430
+					<br>
+					人氣指數: 127508
+					<br>
 				</p>
 				<p>
 					<img src="HW1/s6.jpg" alt="北投圖書館">
@@ -527,51 +481,31 @@
 					<img src="HW1/t101.gif" alt="101亮點">
 					<img src="HW1/720.gif" alt="720度環景">
 					北投圖書館
-					<table>
-						<tbody>
-							<tr>
-								<td colspan="2">區&nbsp;&nbsp;&nbsp;&nbsp;域: </td>
-								<td colspan="2">臺北市 北投區</td>
-							</tr>
-							<tr>
-								<td colspan="2">分&nbsp;&nbsp;&nbsp;&nbsp;類: </td>
-								<td colspan="2">圖書館</td>
-							</tr>
-							<tr>
-								<td colspan="1">推薦指數: </td>
-								<td colspan="1">104</td>
-								<td colspan="1">人氣指數: </td>
-								<td colspan="1">105159</td>
-							</tr>
-						</tbody>
-					</table>
+					<br>
+					區&nbsp;&nbsp;&nbsp;&nbsp;域: 臺北市 北投區
+					<br>
+					分&nbsp;&nbsp;&nbsp;&nbsp;類: 圖書館
+					<br>
+					推薦指數: 104
+					<br>
+					人氣指數: 105159
+					<br>
 				</p>
 				<p>
 					<img src="HW1/s7.jpg" alt="關渡、金色水岸、八里左岸自行車道">
 					<br>
 					關渡、金色水岸、八里左岸自行車道
-					<table>
-						<tbody>
-							<tr>
-								<td colspan="2">區&nbsp;&nbsp;&nbsp;&nbsp;域: </td>
-								<td colspan="2">臺北市 北投區</td>
-							</tr>
-							<tr>
-								<td colspan="2">分&nbsp;&nbsp;&nbsp;&nbsp;類: </td>
-								<td colspan="2">單車遊蹤</td>
-							</tr>
-							<tr>
-								<td colspan="2">適合月份: </td>
-								<td colspan="2">四季皆宜</td>
-							</tr>
-							<tr>
-								<td colspan="1">推薦指數: </td>
-								<td colspan="1">213</td>
-								<td colspan="1">人氣指數: </td>
-								<td colspan="1">103723</td>
-							</tr>
-						</tbody>
-					</table>
+					<br>
+					區&nbsp;&nbsp;&nbsp;&nbsp;域: 臺北市 北投區
+					<br>
+					分&nbsp;&nbsp;&nbsp;&nbsp;類: 單車遊蹤
+					<br>
+					適合月份: 四季皆宜
+					<br>
+					推薦指數: 213
+					<br>
+					人氣指數: 103723
+					<br>
 				</p>
 				<p>
 					<img src="HW1/s8.jpg" alt="大安森林公園">
@@ -579,75 +513,45 @@
 					<img src="HW1/t101.gif" alt="101亮點">
 					<img src="HW1/720.gif" alt="720度環景">
 					大安森林公園
-					<table>
-						<tbody>
-							<tr>
-								<td colspan="2">區&nbsp;&nbsp;&nbsp;&nbsp;域: </td>
-								<td colspan="2">臺北市 大安區</td>
-							</tr>
-							<tr>
-								<td colspan="2">分&nbsp;&nbsp;&nbsp;&nbsp;類: </td>
-								<td colspan="2">城市公園</td>
-							</tr>
-							<tr>
-								<td colspan="1">推薦指數: </td>
-								<td colspan="1">140</td>
-								<td colspan="1">人氣指數: </td>
-								<td colspan="1">71992</td>
-							</tr>
-						</tbody>
-					</table>
+					區&nbsp;&nbsp;&nbsp;&nbsp;域: 臺北市 大安區
+					<br>
+					分&nbsp;&nbsp;&nbsp;&nbsp;類: 城市公園
+					<br>
+					推薦指數: 140
+					<br>
+					人氣指數: 71992
+					<br>
 				</p>
 				<p>
 					<img src="HW1/s9.jpg" alt="琉園水晶博物館">
 					<br>
 					琉園水晶博物館
-					<table>
-						<tbody>
-							<tr>
-								<td colspan="2">區&nbsp;&nbsp;&nbsp;&nbsp;域: </td>
-								<td colspan="2">臺北市 北投區</td>
-							</tr>
-							<tr>
-								<td colspan="2">分&nbsp;&nbsp;&nbsp;&nbsp;類: </td>
-								<td colspan="2">博物館</td>
-							</tr>
-							<tr>
-								<td colspan="1">推薦指數: </td>
-								<td colspan="1">139</td>
-								<td colspan="1">人氣指數: </td>
-								<td colspan="1">65367</td>
-							</tr>
-						</tbody>
-					</table>
+					<br>
+					區&nbsp;&nbsp;&nbsp;&nbsp;域: 臺北市 北投區
+					<br>
+					分&nbsp;&nbsp;&nbsp;&nbsp;類: 博物館
+					<br>
+					推薦指數: 139
+					<br>
+					人氣指數: 65367
+					<br>
 				</p>
 				<p>
 					<img src="HW1/s10.jpg" alt="南港山系-象山親山步道">
 					<br>
 					<img src="HW1/t101.gif" alt="101亮點">
 					南港山系-象山親山步道
-					<table>
-						<tbody>
-							<tr>
-								<td colspan="2">區&nbsp;&nbsp;&nbsp;&nbsp;域: </td>
-								<td colspan="2">臺北市</td>
-							</tr>
-							<tr>
-								<td colspan="2">分&nbsp;&nbsp;&nbsp;&nbsp;類: </td>
-								<td colspan="2">親山健行</td>
-							</tr>
-							<tr>
-								<td colspan="2">適合月份: </td>
-								<td colspan="2">四季皆宜</td>
-							</tr>
-							<tr>
-								<td colspan="1">推薦指數: </td>
-								<td colspan="1">97</td>
-								<td colspan="1">人氣指數: </td>
-								<td colspan="1">64488</td>
-							</tr>
-						</tbody>
-					</table>
+					<br>
+					區&nbsp;&nbsp;&nbsp;&nbsp;域: 臺北市
+					<br>
+					分&nbsp;&nbsp;&nbsp;&nbsp;類: 親山健行
+					<br>
+					適合月份: 四季皆宜
+					<br>
+					推薦指數: 97
+					<br>
+					人氣指數: 64488
+					<br>
 				</p>
 				<p>
 					每頁
