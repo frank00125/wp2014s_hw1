@@ -105,7 +105,7 @@ aside.service{
 
 main{
 	display: inline-flex;
-	width: 75%;
+	width: 75.0%;
 	height : 10%;
 	background: rgba(255,0,0,0.1);
 }
@@ -128,7 +128,7 @@ div.left{
 	float: left;
 	width: 18%;
 	height: auto;
-	padding-bottom: 61.5%;
+	padding-bottom: 62.4%;
 	background: rgba(255,0,0,0.2);
 }
 
@@ -194,8 +194,8 @@ p.remain_part1{
 
 div.scene_search{
 	background: rgba(188,143,143,0.5);
-	height: 105%;
-	width: 100%;
+	height: auto;
+	width: auto;
 	padding-top: 1%;
 	padding-bottom: 1%;
 	text-align:center;
@@ -260,7 +260,7 @@ div.page_number, div.page_number p{
 img.back, img.next, img.nextEnd, img.backHome{
 	float: none;
 	display: inline;
-	padding-left: 0%;
+	margin-left: 0%;
 }
 
 footer{
