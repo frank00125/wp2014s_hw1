@@ -7,12 +7,8 @@ a, p{
 
 body{
 	margin: 0px;
-}
-
-header.top{
-	height: 80%;
-	width: auto;
-	position: relative;
+	display: flex;
+	flex-direction: column;
 }
 
 a.weather{
@@ -20,29 +16,37 @@ a.weather{
 }
 
 div.weather_taipei{
-	margin-left: 80%;
-	width: 5%;
+	position: relative;
+	display: inline-block;
+	left: 20%;
 }
 
 div.weather_taipei
 img.wpic{
-	margin-left: 9.5px;
+	position: relative;
+	display: block;
 }
 
-div.topOfHead{
+div.titleAndWeather{
+	flex-basis: 82px;
 	position: relative;
-	display : block;
-	margin: 0px auto;
+	display: inline-block;
 	width: 25%;
 	height: 30%;
+	left: 40%
+}
+
+div.titleAndWeather
+a{
+	display: block;
 }
 
 nav.nav1{
 	position: relative;
-	padding-left: 30%;
 	width: auto;
 	background: pink;
 	vertical-align : middle;
+	text-align: center;
 }
 
 nav.nav1
@@ -50,26 +54,11 @@ a{
 	text-decoration: none;
 }
 
+div.links1{
+	display: flex;
+}
+
 nav.nav2{
-	width: 35%;
-	float: right;
-	vertical-align : middle;
-	font-family: DFKai-sb;
-	font-size: 15px;
-}
-
-nav.nav2
-a{
-	text-decoration: none;
-}
-
-nav.nav2
-img{
-	vertical-align : middle;
-	width: 14%
-}
-
-nav.nav3{
 	float: left;
 	width: 65%;
 	height: 38px;
@@ -78,43 +67,78 @@ nav.nav3{
 }
 
 nav.nav3
+img{
+	vertical-align : middle;
+	width: 14%
+}
+
+nav.nav2
 a{
 	position: relative;
 	text-decoration: none;
 	top: 5px;
+}
+	
+nav.nav3{
+	display: inline;
+	width: 35%;
+	height: 38px;
+	float: right;
+	font-family: DFKai-sb;
+	font-size: 15px;
+}
+
+nav.nav3
+a{
+	text-decoration: none;
+}
+
+nav.nav3
+p{
+	display: inline;
 }
 
 nav.nav_content{
 	display: none;
 }
 
+img.main_pic{
+	width: auto;
+	/* flex-basis: 50%; */
+}
+
 div.sns_share{
-	width: 100%;
-	display: inline-block;
-	float: right;
+	position: relative;
+	left: 0%;
+	width: auto;
 	background: orange;
 }
 
-img.main_pic{
-	max-height: auto;
-	max-width: auto;
-	width: 100%;
-	height : 100%;
+div.middle{
+	display: flex;
+	width: auto;
 }
 
 aside.service{
+	flex-basis: 7%;
 	position: relative;
 	float: right;
-	width: 7%;
 	height: 50%;
 }
 
 main{
 	position: relative;
 	display: inline-flex;
-	width: 73%;
+	flex-basis: 73%;
 	height : 10%;
 	background: rgba(255,0,0,0.1);
+}
+
+div.left{
+	position: relative;
+	flex-basis: 20%;
+	padding-bottom: 62.4%;
+	background: rgba(255,0,0,0.2);
 }
 
 main
@@ -129,14 +153,6 @@ article{
 	height: 200%;
 	width: 100%;
 	padding-top: 0%;
-}
-
-div.left{
-	position: relative;
-	float: left;
-	width: 20%;
-	padding-bottom: 62.4%;
-	background: rgba(255,0,0,0.2);
 }
 
 section.scene_catagory{
@@ -220,7 +236,8 @@ p.remain_part1{
 }
 
 div.scene_search{
-	background: rgba(188,143,143,0.5);
+	background: /* rgba(188,143,143,0.5); */#FFFFFF;
+	border: 2px solid #000000;
 	height: auto;
 	width: auto;
 	padding-top: 1%;
@@ -292,6 +309,7 @@ img.back, img.next, img.nextEnd, img.backHome{
 
 footer{
 	position: absolute;
+	width: 100%;
 	background: brown;
 	font-family: "DFKai-sb";
 	color: white;
