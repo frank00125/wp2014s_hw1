@@ -130,7 +130,6 @@ main{
 	position: relative;
 	display: inline-flex;
 	flex-basis: 73%;
-	height : 10%;
 	background: rgba(255,0,0,0.1);
 }
 
@@ -231,10 +230,6 @@ div.scenes{
 	margin-left: 5%;
 }
 
-p.remain_part1{
-	height: 60%;
-}
-
 div.scene_search{
 	background: /* rgba(188,143,143,0.5); */#FFFFFF;
 	border: 2px solid #000000;
@@ -274,7 +269,6 @@ img
 img{
 	/* align-self: center; */
 	float: none;
-	max-height: auto;
 	margin: 0%;
 	display: inline-flex;
 	height: 1em;
@@ -329,5 +323,4 @@ img{
 	float: left;
 	margin-left: 5%;
 	width: 4%;
-	vertical-align: center;
 }
