@@ -17,24 +17,20 @@ a.weather{
 
 div.weather_taipei{
 	position: relative;
-	display: flex;
-	flex-direction: column;
-	left: 20%;
+	left: 10%;
 }
 
 div.weather_taipei
-img.wpic{
+img{
 	position: relative;
 	display: block;
+	margin: 0px auto;
 }
 
 div.titleAndWeather{
 	flex-basis: 82px;
-	position: relative;
-	display: inline-block;
-	width: 25%;
-	height: 30%;
-	left: 40%
+	display: flex;
+	margin: 0px auto;
 }
 
 div.titleAndWeather
@@ -60,9 +56,7 @@ div.links1{
 }
 
 nav.nav2{
-	float: left;
-	width: 65%;
-	height: 150%;
+	flex-basis: 65%;
 	text-align: center;
 	background: rgba(102,25,36,0.2);
 	overflow: auto;
@@ -79,16 +73,16 @@ a{
 	position: relative;
 	text-decoration: none;
 	top: 5px;
+	font-size: 13pt;
 }
 	
 nav.nav3{
 	display: inline;
-	width: 35%;
 	height: auto;
-	float: right;
 	font-family: DFKai-sb;
 	font-size: 15px;
 	overflow: auto;
+	flex-basis: 35%;
 }
 
 nav.nav3
@@ -132,13 +126,13 @@ aside.service{
 main{
 	position: relative;
 	display: inline-flex;
-	flex-basis: 73%;
+	flex-basis: 78%;
 	background: rgba(255,0,0,0.1);
 }
 
 div.left{
 	position: relative;
-	flex-basis: 20%;
+	flex-basis: 15%;
 	padding-bottom: 62.4%;
 	background: rgba(255,0,0,0.2);
 }
@@ -160,7 +154,9 @@ article{
 section.scene_catagory{
 	background: rgba(0,0,255,0.2);
 	padding-bottom: 1%;
+	overflow: auto;
 }
+
 
 section.scene_catagory
 p{
@@ -191,10 +187,12 @@ img{
 
 section.hot_scene{
 	background: rgba(0,125,125,0.3);
+	overflow: auto;
 }
 
 section.recommand_scene{
 	background: rgba(0,200,200,0.5);
+	overflow: auto;
 }
 
 div.sceneTitle{
@@ -224,15 +222,6 @@ a{
 	display: inline-block;
 }
 
-
-div.scenes{
-	position: relative;
-	width: 75%;
-	height: 75%;
-	margin: 0px auto;
-	margin-left: 5%;
-}
-
 div.scene_search{
 	background: /* rgba(188,143,143,0.5); */#FFFFFF;
 	border: 2px solid #000000;
@@ -244,21 +233,24 @@ div.scene_search{
 }
 
 p.scene_intro1, p.scene_intro2{
-	margin: 1% 0px 0px 45%;
+	margin-right: auto;
+	margin-top: auto;
 	width: 50%;
 	padding-top: 1.5%;
 	padding-bottom: 1.5%;
 	border: 2px solid rgba(255,0,255,0.3);
 	border-radius: 20px;
-	background: rgba(0,255,0,0.3)
+	background: rgba(0,255,0,0.3);
+	display: block;
 }
 
-img.type1{
-	margin-top: 11.5px;
+div.scene1 img, div.scene2 img{
+	display: block;
+	margin: auto;
 }
 
-img.type2{
-	margin-top: 21.5px;
+div.scene1, div.scene2{
+	display: flex;
 }
 
 p.pages
