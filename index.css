@@ -51,15 +51,12 @@ a{
 	text-decoration: none;
 }
 
-div.links1{
-	display: flex;
-}
-
 nav.nav2{
-	flex-basis: 65%;
+	display: block;
 	text-align: center;
 	background: rgba(102,25,36,0.2);
 	overflow: auto;
+	padding: 0px auto;
 }
 
 nav.nav3
@@ -70,19 +67,57 @@ img{
 
 nav.nav2
 a{
-	position: relative;
+	display: inline-block;
 	text-decoration: none;
 	top: 5px;
 	font-size: 13pt;
 }
-	
+
+nav.nav2
+hr{
+	margin: 0px;
+}
+
+nav.nav2 nav{
+	display: none;
+}
+
+a.intro:hover  ~ nav.intro{
+	display: inline-block;
+}
+
+a.tips:hover  ~ nav.tips{
+	display: inline-block;
+}
+
+a.trips:hover  ~ nav.trips{
+	display: inline-block;
+}
+
+a.foods:hover  ~ nav.foods{
+	display: inline-block;
+}
+
+a.private:hover  ~ nav.private{
+	display: inline-block;
+}
+
+a.guide:hover  ~ nav.guide{
+	display: inline-block;
+}
+
+a.free:hover  ~ nav.free{
+	display: block;
+}
+
+div.head{
+	display: flex;
+}
+
 nav.nav3{
-	display: inline;
-	height: auto;
+	flex-basis: 35%;
 	font-family: DFKai-sb;
 	font-size: 15px;
-	overflow: auto;
-	flex-basis: 35%;
 }
 
 nav.nav3
@@ -95,19 +130,13 @@ p{
 	display: inline;
 }
 
-nav.nav_content{
-	display: none;
-}
-
 img.main_pic{
 	width: auto;
 	/* flex-basis: 50%; */
 }
 
 div.sns_share{
-	position: relative;
-	left: 0%;
-	width: auto;
+	flex-basis: 65%;
 	background: orange;
 }
 
