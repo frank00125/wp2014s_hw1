@@ -225,7 +225,7 @@ section.recommand_scene{
 }
 
 div.sceneTitle{
-	display: inline-block;
+	display: inline;
 	width: 75%;
 	height: 25%;
 	text-align: center;
